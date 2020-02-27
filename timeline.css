@@ -71,6 +71,8 @@ A hover sample effect is added as well as an active state*/
 /* modifier with use of the data-year attribute */
 .base-timeline__item--data::before {
   content: attr(data-year);
+  width: 60px;
+  height: 60px;
 }
 
 /* hover element */
